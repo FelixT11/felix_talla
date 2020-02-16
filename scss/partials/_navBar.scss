@@ -1,0 +1,70 @@
+// NAVBAR DOC
+body {
+    nav {
+        width: 100%;
+        background-color: #ffffff;
+        min-height: 85px;
+        position: fixed;
+        z-index: 2200;
+        top: 0;
+        transition: 0.8s all ease;
+        img {
+            width: 200px;
+            padding: 10px;
+            padding-left: 20px;
+            transition: 0.8s all ease;
+        }
+        #menuItem {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            float: right;
+            margin-right: 20px;
+            margin-top: 55px;
+            transition: 0.8s all ease;
+            li {
+                list-style: none;
+                display: inline-block;
+                font-family: 'Roboto Mono', monospace;
+                color: #282828;
+                font-size: 25px;
+                padding: 0 20px;
+                a {
+                    color: #000000;
+                    transition: all 0.8s ease-in;
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                        cursor: pointer;
+                        color: #000000;
+                        transition: all 0.8s ease-in;
+                    }
+                }
+            }
+            &:after {
+                content: '';
+                display: block;
+                float: none;
+                clear: both;
+            }
+        }
+    }
+    .scrolled {
+        transition: 0.35s all ease;
+        img {
+            width: 120px;
+            padding: 10px;
+            padding-left: 20px;
+            transition: 0.8s all ease;
+        }
+        #menuItem {
+            transition: 0.8s all ease;
+            margin-top: 35px;
+            li {
+                font-size: 20px;
+                padding: 0 20px;
+                transition: 0.8s all ease;
+            }
+        }
+    }
+}

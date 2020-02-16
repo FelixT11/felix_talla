@@ -1,0 +1,25 @@
+@import "partials/_vendor";
+@import "partials/_varibales";
+@import "partials/_main";
+@import "partials/_navBar";
+@import "partials/_leftFrame";
+@import "partials/_rightFrame";
+@import "partials/_background";
+@import "partials/_mobileMenu";
+@import "partials/_about";
+@import "partials/_portfolio";
+@import "partials/_contact";
+@import "partials/_modal";
+@import "partials/_home";
+@import "partials/_footer";
+@import "partials/_mixins";
+
+
+.clearfix {
+        clear: both;
+    }
+
+*{
+    
+    box-sizing: border-box;
+}

@@ -1,0 +1,97 @@
+// MODAL DOC  
+.modal {
+    max-width: 80% !important;
+    ::-webkit-scrollbar-track {
+        //	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        background-color: #c9b9b9;
+    }
+    ::-webkit-scrollbar {
+        width: 7px;
+        background-color: #F5F5F5;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: $color;
+        //	border: 2px solid $color;
+    }
+    
+    .contentBoxWeb,
+    .contentBoxMotion,
+    .contentBoxPrint {
+        img {
+            width: 100%;
+        }
+        video {
+            width: 100%;
+            
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        
+        #videoOne {
+            height: 20%;
+        }
+        .infoBox {
+            padding: 30px;
+            .headerThumb {
+                font-family: 'Contrail One', cursive;
+                color: #282828;
+                font-size: 50px;
+            }
+            p {
+                font-family: 'Roboto Mono', monospace;
+                color: #282828;
+                font-size: 14px;
+                line-height: 1.8em;
+            }
+            a {
+                font-family: 'Roboto Mono', monospace;
+                font-size: 20px;
+                text-decoration: none;
+                background-color: $color;
+                padding: 10px 50px;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-bottom: 50px;
+            }
+            .link {
+                margin-top: 30px;
+                color: #ffffff;
+                background-color: $color;
+                float: left;
+                margin-bottom: 20px;
+                transition: all 0.8s ease-in;
+                &:hover {
+                    background-color: #f0b30c;
+                    color: #000000;
+                    transition: all 0.8s ease-in;
+                }
+            }
+            .close {
+                margin-top: 30px;
+                color: #aaa9a9;
+                background-color: #eae8e8;
+                float: right;
+                margin-bottom: 20px;
+                transition: all 0.8s ease-in;
+                &:hover {
+                    color: #8d8c8c;
+                    background-color: #bebdbd;
+                    transition: all 0.8s ease-in;
+                }
+            }
+            .closeVideo {
+                color: #aaa9a9;
+                background-color: #eae8e8;
+                float: right;
+                margin-bottom: 80px;
+                transition: all 0.8s ease-in;
+                &:hover {
+                    color: #8d8c8c;
+                    background-color: #bebdbd;
+                    transition: all 0.8s ease-in;
+                }
+            }
+        }
+    }
+}

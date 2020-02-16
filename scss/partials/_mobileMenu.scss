@@ -1,0 +1,79 @@
+// MOBILE MENU DOC
+body {
+    #menuItemMobile {
+        display: none;
+        text-align: center;
+        padding: 0;
+        li {
+            list-style: none;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 20px;
+            font-size: 20px;
+            padding: 30px 0;
+            .fa {
+                font-size: 40px;
+                padding: 20px;
+                color: #282828;
+            }
+            .moblieLink {
+                color: #282828;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                    color: $color;
+                }
+            }
+            .fa-file-text {
+                &:hover {
+                    color: #00b1ff;
+                    cursor: pointer;
+                    transform: scale(1.05);
+                    transition: all 0.8s ease-in;
+                }
+            }
+            .fa-instagram {
+                &:hover {
+                    color: #8a3ab9;
+                    cursor: pointer;
+                    transform: scale(1.05);
+                    transition: all 0.8s ease-in;
+                }
+            }
+            .fa-github {
+                &:hover {
+                    color: #49c0b6;
+                    cursor: pointer;
+                    transform: scale(1.05);
+                    transition: all 0.8s ease-in;
+                }
+            }
+            .fa-linkedin {
+                &:hover {
+                    color: #ef6c5a;
+                    cursor: pointer;
+                    transform: scale(1.05);
+                    transition: all 0.8s ease-in;
+                }
+            }
+        }
+        .trans--grow {
+            -webkit-transition: width 1s ease-out;
+            transition: width 1s ease-out;
+            width: 0%;
+        }
+        .grow {
+            width: 100%;
+        }
+        .hr1 {
+            margin-left: 0;
+        }
+        .hr2 {
+            margin-right: 0;
+        }
+        hr {
+            margin-top: 20px;
+            border: 1px dashed #282828;
+        }
+    }
+}

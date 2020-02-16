@@ -1,0 +1,96 @@
+// CONTACT DOC
+body {
+    .address {
+        background: rgba(255, 255, 255, 0.8);
+        margin-left: 10%;
+        padding: 30px;
+        padding-bottom: 80px;
+        .addressList {
+            padding-top: 45px;
+            ul {
+                padding: 0;
+                margin: 0;
+                li {
+                    list-style: none;
+                    font-family: 'Roboto Mono', monospace;
+                    color: #282828;
+                    font-size: 16px;
+                }
+                .infoHeader {
+                    font-weight: 600;
+                }
+                .info {
+                    margin-bottom: 30px;
+                }
+                hr {
+                    border: 1.5px dashed #282828;
+                    margin: 5px 0 20px 0;
+                }
+            }
+        }
+        .infoHeader {
+            margin-bottom: 0;
+        }
+        .portrait {
+            text-align: center;
+            padding-top: 80px;
+            img {
+                width: 100%;
+                max-width: 200px;
+                border-radius: 50%;
+                -webkit-filter: grayscale(80%);
+                /* Safari 6.0 - 9.0 */
+                filter: grayscale(80%);
+                transition: all 0.8s ease-in;
+                &:hover {
+                    -webkit-filter: none;
+                    /* Safari 6.0 - 9.0 */
+                    filter: none;
+                    transition: all 0.8s ease-in;
+                }
+            }
+        }
+    }
+    form {
+        padding: 0 !important;
+        margin-right: 5%;
+        margin-bottom: 20px;
+        input {
+            font-family: 'Roboto Mono', monospace;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border: none;
+            margin-left: 30px;
+            width: 100%;
+        }
+        .col-6,
+        .col-12 {
+            padding: 0 10px;
+            padding-bottom: 30px;
+        }
+        textarea {
+            font-family: 'Roboto Mono', monospace;
+            margin-left: 30px;
+            padding: 10px;
+            height: 200px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+            border: none;
+        }
+        .submit {
+            font-family: 'Roboto Mono', monospace;
+            width: 100%;
+            background-color: $color;
+            color: #ffffff;
+            border-radius: 10px;
+            transition: all 0.8s ease-in;
+            &:hover {
+                background-color: #f0b30c;
+                color: #282828;
+                transition: all 0.8s ease-in;
+            }
+        }
+        box-sizing: border-box;
+        phoneNumber {}
+    }
+}
